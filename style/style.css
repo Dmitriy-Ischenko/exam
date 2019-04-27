@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Aleo:300,400,700');
+
+html{
+	scroll-behavior: smooth; /*плавный скролл*/
+}
+
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #232323;
+	color: #fff;
+	font-size: 16px;
+	padding-bottom: 80px;
+
+}
+::selection {
+  background: #FF0099;
+  color: black;
+  text-shadow: none;
+}
+
+* {box-sizing: border-box;
+	transition: all .1s ease-in;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+	text-transform: uppercase;
+}
+/*Хедер*/
+.header{
+	background:  url(../images/intro_bg.jpg) no-repeat; 
+	background-size: cover;
+}
+.container{
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto; 
+}
+.intro{
+	text-align: center;
+	color: #fff;
+	height: 100vh;
+
+}
+
+.intro-txt h1{
+	font-size: 48px;
+	padding-top: 180px;
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+
+}
+
+.intro-txt p{
+    font-size: 30px;
+    padding-bottom: 50px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    padding-top: 15px;
+}
+
+
+form {
+  position: relative;
+  width: 650px;
+  margin: 0 auto;
+}
+.d1 input {
+text-align: center;
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  border:none;
+  outline: none;
+  background: #F9F0DA;
+  color: #9E9C9C;
+}
+
+.d1 {
+	margin-bottom: 100px;
+}
+
+.d1 button {	
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width:145px;
+  height: 50px;
+  background: #5474FD;
+  cursor: pointer;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.fa-search:before {
+    content: "\f002";
+     font-size: 16px;
+  	color: #F9F0DA;
+}
+
+.scroll{
+	padding-bottom: 20px;
+    font-weight: 300;
+}
+
+.scroll a{
+	text-decoration: none;
+	color: #fff;
+}
+.scroll :hover{
+	color: #5474FD;
+}
+
+ .flex-cont{
+ 	    display: flex;
+ 	    align-items: center;
+  		justify-content: space-between;
+  		background-color:#5474FD;
+  		position: fixed;
+  		right: 0;
+  		left: 0;
+  		bottom: 0;
+  		z-index: 1;
+
+ }
+.logo a, h1{
+	text-decoration: none;
+	color: #fff;
+}
+.logo h1{
+	padding-left: 50px;
+	text-transform: uppercase;
+}
+
+.header .menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+.header .menu ul li {
+  margin: 20px 10px;
+}
+
+.header .menu ul a {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'Aleo', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff; 
+}
+
+.header .menu ul :hover{
+  color: black;
+}
+
+
+
+/*ПОЧЕМУ МЫ*/
+
+.why-us{
+	background: url(../images/why_bg.jpg) no-repeat;
+
+	background-size: cover;
+	padding-top: 90px;
+	    padding-bottom:80px;
+}
+
+.left-cont{
+	float: left;
+	width: 40%;
+	padding-left: 10px;
+}
+.right-cont{
+	float: right;
+	width: 40%;
+}
+
+.why-txt{
+	padding-top: 90px;
+	letter-spacing:2px;
+	font-weight: 300;
+	line-height: 26px;
+	margin-bottom: 20px;
+}
+
+.last-pic{
+	float: right;
+	margin-top: 5px;
+}
+
+button {
+	width: 220px;
+	height: 60px;
+	background-color: #5474FD;
+	color: #fff;
+	border: none;
+
+}
+button:hover{
+	background-color: #fff;
+	color: #5474FD;
+}
+
+.why-btn{
+	margin-top: 50px;
+}
+
+.icon-blok{
+	height: 330px;
+	width: 100%;
+	background:url(../images/iconbar.jpg) no-repeat;
+	background-position: -232px -4px; 
+}
+.icon-blok ul{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.icon-blok p{
+	font-size: 36px;
+	font-family: 'Aleo', sans-serif;
+}
+
+.icon-blok img{
+	padding-left: 60px;
+	margin-bottom: 40px;
+
+}
+
+/*ИСПАНИЯ*/
+.spain{
+	background: url(../images/spain.jpg) no-repeat;
+    background-size: cover;
+	padding-top: 90px;
+	padding-bottom:80px;
+	height: 100vh;
+}
+
+.book-now{
+	width: 570px;
+	height: 330px;
+	background-color:rgba(46, 41, 41, 0.8);
+}
+.book-txt{
+	padding:10px 20px;
+}
+.book-txt h2{
+	font-size: 23px;
+	padding-top;
+}
+
+.book-txt h1{
+	line-height: 30px;
+	text-transform: uppercase;
+}
+.book-txt p{
+	margin-bottom: 30px;
+	line-height: 30px;
+	font-weight: 300;
+}
+
+.spain2{
+	background: url(../images/spain2.jpg) no-repeat;
+    background-size: cover;
+	padding-top: 90px;
+	padding-bottom:80px;
+	height: 100vh;
+}
+
+.right{
+	float: right;
+}
+
+.what-say{
+	background:url(../images/what.jpg) no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+.otzv-block{
+	background-color:#333333;
+	display: flex;
+}
+
+h1.otzv {
+	padding: 90px 0;
+	margin: 0;
+	text-align: center;
+}
+
+.avka{
+	float: left;
+	width: 49%
+}
+.otzv-txt{
+	float: right;
+	width: 49%
+}
+.name{
+	padding-top: 30px;
+}
+.otzv-txt p{
+		margin-bottom: 30px;
+	line-height: 24px;
+	font-weight: 300;
+}
+
+/*FOOTER*/
+#footer{
+	height: 150px;
+}
+.footer-txt{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.footer-txt h1{
+	font-size: 24px;
+	text-transform: uppercase;
+	padding-top: 45px;
+}
+
+.social-icon li{
+	padding-top: 20px;
+	display: inline-block;
+	cursor: pointer;
+	padding-right: 11px;
+	color: #fff;
+	margin-left: 10px;
+}
+
+.social-icon a:hover{
+	color: #5474FD;
+}
+.fa-quote-left:before {
+    content: "\f10d";
+    color: #5474FD;
+}
